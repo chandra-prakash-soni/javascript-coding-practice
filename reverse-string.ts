@@ -14,3 +14,10 @@ function reverseMyStr(str: string) {
   return reverseMyStr(str.slice(1)) + str[0];
 }
 console.log(reverseMyStr("Shivendra"));
+
+// Using Predefined Method
+function reversedStr(str: string) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reversedStr("Soni"));
